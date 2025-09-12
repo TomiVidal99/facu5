@@ -61,14 +61,14 @@
 #project(
   title: "Trabajo práctica integral entrega N°1",
   sub: "Economía para Ingenieros y Organización Industrial",
-  authors: ("Tomás Vidal (69854/4)", "???", "????", "???", "???"),
+  authors: ("Vidal Tomás", "Lopez Sebastián Javier", "Vidal Facundo", "Marchesotti Guido Daniel", "Gatta Agustín Julián"),
   date: "7 de Septiembre de 2025",
 )[
   = Prototipo de Porta Mate
 
   == Descripción del contexto competitivo y de la marca comercial
 
-  - *Nombre de la marca/producto*: MatelHold.
+  - *Nombre de la marca/producto*: MateHold.
   - *Localización geográfica*: La Plata, Buenos Aires, Argentina, con producción inicial en áreas urbanas (CABA, Avellaneda, La Plata) y potencial expansión a regiones productoras de yerba mate como Misiones y Corrientes, así como mercados online en América Latina.
   - *Demanda potencial*: El consumo interno de yerba mate en Argentina alcanzó 138,27 millones de kilogramos en el primer semestre de 2025, con un crecimiento del 16,02% respecto al año anterior. El mercado total de yerba mate se estima en alrededor de 320 millones de kilos elaborados en 2025, impulsado por ventas internas y exportaciones. En accesorios relacionados, como porta mates y sets materos, la demanda se alinea con el consumo per cápita (6-7 kg anuales), con estimaciones de 100.000 unidades anuales en el segmento de accesorios prácticos para hogares y oficinas urbanas (fuente: adaptación de datos INDEC sobre consumo de bienes duraderos y tendencias de Mercado Libre, 2025).
   - *Descripción del producto*: Accesorio porta mate que se fija al costado de la mesa para sostener el termo y el mate, liberando espacio en la superficie y previniendo caídas. Fabricado con materiales resistentes como plástico o metal, con diseño ajustable. La versión premium incluye accesorios adicionales para portar el azucarero y el yerbero, mejorando la organización en entornos de trabajo u hogar.
@@ -76,7 +76,7 @@
 
   == Descripción de la firma
 
-  MatelHold S.A., una startup con sede en La Plata, compuesta por un equipo de 5 integrantes: 4 ingenieros electrónicos y un ingeniero en telecomunicaciones. Capital inicial: ARS 1,8 millones, financiado por ahorros personales, inversores privados y posibles subsidios del programa de Innovación Productiva (Ministerio de Producción). La firma se especializa en accesorios prácticos para el consumo de yerba mate, con proveedores locales de materiales plásticos y metálicos en Buenos Aires.
+  MateHold S.A., una startup con sede en La Plata, compuesta por un equipo de 5 integrantes: 4 ingenieros electrónicos y un ingeniero en telecomunicaciones. Capital inicial: ARS 1,8 millones, financiado por ahorros personales, inversores privados y posibles subsidios del programa de Innovación Productiva (Ministerio de Producción). La firma se especializa en accesorios prácticos para el consumo de yerba mate, con proveedores locales de materiales plásticos y metálicos en Buenos Aires.
 
   == Situación problema
 
@@ -86,7 +86,7 @@
 
   - *Principales actividades*: La industria manufacturera contribuye al 16-18% del PBI nacional, con un crecimiento del índice de producción industrial (IPI) del 7,1% interanual en enero de 2025. El sector de bienes de consumo duraderos, incluyendo accesorios plásticos y metálicos, se beneficia del repunte en el consumo interno. En el complejo verbatero, la producción y exportaciones crecieron, con 91,4 millones de kilos despachados al mercado interno en los primeros cuatro meses.
   - *Empleo en la zona*: La industria manufacturera genera alrededor de 1,2 millones de empleos directos, con un 10% en subsectores de plásticos y metalmecánica en Gran Buenos Aires (fuente: Ministerio de Trabajo, 2025). En regiones como Misiones, el empleo verbatero supera los 50.000 puestos.
-  - *Competencia*: Dominada por importaciones (30-40% del mercado de accesorios, fuente: Aduana Argentina) and marcas locales como las mencionadas en el estudio de mercado. Creciente interés en productos innovadores y sostenibles.
+  - *Competencia*: Dominada por importaciones (30-40% del mercado de accesorios, fuente: Aduana Argentina) y marcas locales como las mencionadas en el estudio de mercado. Creciente interés en productos innovadores y sostenibles.
   - *Participación del Estado*: Subsidios vía programas como el de Innovación Productiva y beneficios fiscales para PYMES manufactureras. Factores internacionales: Acuerdos Mercosur facilitan exportaciones de accesorios a Brasil y Uruguay, donde el mate gana popularidad.
   - *Contexto general*: El PBI crece un 5-5,5% en 2025, con recuperación tras recesión previa y PIB desestacionalizado aumentando 0,8% en Q1. Inflación se estabiliza, con tasas más bajas en cinco años y alimentos al 0,5% en mayo. Gran Buenos Aires lidera en manufactura, con un ecosistema de proveedores para prototipos.
 ]
