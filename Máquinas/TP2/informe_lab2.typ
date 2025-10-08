@@ -221,7 +221,44 @@
 
   === Procedimiento de medición
 
-  Se llevó el generador al punto de operación, con velocidad del rotor en 3000 _r.p.m_.  Luego, se fue elevando la corriente de excitación en intervalos constantes de 0.3 A, comenzando desde los 0.0 A, hasta llegar a los 2.4 A.  Para cada corriente, se tomaron las siguientes mediciones
+  Se llevó el generador a un punto de operación con velocidad de rotación de 3000rpm.
+  Luego, se fue elevando la corriente de excitación en intervalos constantes de 0.3 A, comenzando desde los 0.0 A, hasta llegar a los 2.4 A.
+  Para cada corriente, se tomaron las siguientes mediciones:
+
+  - Fem inducida: medida con el multímetro, en bornes Uc.
+  - Corriente de excitación: medida con el amperímetro de la fuente.
+
+  == Conexión en derivación
+
+  El objetivo es determinar la característica en vacío para la conexión en derivación, es decir, la
+  variación de la fem en función de la corriente de excitación.
+  Para ello, se realizó un ensayo directo modificando la corriente de excitación y midiendo la
+  tensión de salida.
+  El generador se encuentra en vacío en el sentido de que no se le conectó una carga externa,
+  pero debe tomarse en consideración que su bobina de excitación debe considerarse como
+  parte de la carga, ya que el conexionado en derivación es autoexcitante.
+  Esto se resume en que la tensión medida no es realmente la fem, sino un valor menor debido a
+  las perdidas en las resistencias propias de la armadura.
+
+  #figure(
+    image("Imagenes/derivacion.png", width: 90%),
+    caption: [Circuito para el ensayo de conexión en derivación],
+  )
+
+  === Conexionado:
+
+  Se realizó el conexionado según el esquema, del siguiente modo:
+
+  - Para medir la tensión, se conectó un multímetro digital V en bornes de salida, en alcance 200V.
+  - Para controlar la corriente de excitación, se utilizaron 2 resistencias variables de distinto tipo de ajuste (fino y grueso).
+  - Para medir la corriente de excitación, se utilizó un amperímetro analógico, en alcance 6A.
+  - Para girar el rotor, se acopló un motor externo (Máquina de impulso).
+
+  === Procedimiento de medición:
+
+  Se llevó el generador al punto de operación, con velocidad del rotor en 3000rpm.
+  Luego, se fue elevando la corriente de excitación en intervalos constantes de 0.3 A, comenzando desde los 0.0 A, hasta llegar a los 2.4 A.
+  Para cada corriente, se tomaron las siguientes mediciones:
 
   - Tensión en la salida del generador: medida con el multímetro.
   - Corriente de excitación: medida con el amperímetro.
@@ -234,6 +271,23 @@
     image("Imagenes/ensayo-2.png", width: 80%),
     caption: [Circuito para el ensayo de conexión compuesta aditiva],
   )
+
+  === Conexionado:
+  Se realizó el conexionado según el esquema, del siguiente modo:
+
+  - Para medir la tensión, se conectó un multímetro digital V en bornes de salida, en alcance 200V.
+  - Para controlar la corriente de excitación, se utilizaron 2 resistencias variables de distinto tipo de ajuste (fino y grueso). La corriente de excitación se establece en un valor y no se modifica durante el resto del ensayo.
+  - Para medir la corriente de excitación, se utilizó un amperímetro analógico, en alcance 6A.
+  - Para variar la corriente de carga, se utilizó la resistencia variable Rc.
+  - Para medir la corriente de carga, se utilizó un amperímetro analógico, en alcance 5A.
+  - Para girar el rotor, se acopló un motor externo (Máquina de impulso).
+
+  === Procedimiento de medición:
+  Se llevó la máquina a su punto de operación nominal, con velocidad del rotor de 3000rpm.
+  Se reguló el resistor de carga en su valor máximo, de modo que la corriente de carga sea nula, y se reguló la corriente de excitación para establecer una tensión de vacío.
+  Luego, se fue aumentando la corriente de carga en valores constantes de 0.5A hasta llegar a 2.5A, y para cada uno de ellos se midió:
+  - Corriente en la carga: medida con el amperímetro en serie a la carga.
+  - Tensión en la carga: medida con el multímetro en paralelo a la carga.
 
   = Resultados
 
@@ -261,11 +315,18 @@
     caption: [Gráfico correspondiente a la tabla @table1],
   )
 
+  #figure(
+    image("Imagenes/gen_R_crit.png", width: 100%),
+    caption: [$R_"crítica"$ a partir de la @table1],
+  )
+
+  #equation($R_"crítica" = E_i / I_"exc" = 19.7 / 0.9 = 21.1667$)<Rcrit>
+
   #align(center)[ #figure(
     table(
       columns: (auto, auto, auto),
       align: (center, center, center),
-      [I], [$E_"i_aditiva"$], [$E_"i_derivativa"$],
+      [$I_"exc"$], [$E_"i_aditiva"$], [$E_"i_derivativa"$],
       [0], [40], [40],
       [0.5], [39.02], [39.2],
       [1], [38.4], [38.5],
@@ -278,7 +339,7 @@
   )<table2> ]
 
   #figure(
-    image("Imagenes/Generador_en_vacio.png", width: 100%),
+    image("Imagenes/derivativa_vs_compuesta.png", width: 100%),
     caption: [Gráfico correspondiente a la @table2],
   )
 
@@ -288,7 +349,7 @@
 
   En el ensayo en vacío, correspondiente a las conexiones independiente y en derivación, el comportamiento teórico debería ser lineal. No obstante, debido a la saturación del hierro, la curva resultante presenta una desviación respecto de la recta ideal. En ambos casos debería obtenerse el mismo valor de la fuerza electromotriz (f.e.m.); sin embargo, al disponer una resistencia de excitación en paralelo, parte de la corriente se deriva hacia esta, lo que genera una diferencia en la f.e.m. observada. Asimismo, se comprobó que el generador, incluso sin carga, presenta un valor inicial de f.e.m. producto del campo magnético remanente, lo cual le permite iniciar su funcionamiento.
 
-  En el ensayo de comportamiento externo, efectuado para las conexiones en derivación y compuesta aditiva, se verificó que, para una misma corriente, la tensión en la carga es mayor en la conexión compuesta aditiva que en la conexión en derivación.
+  En el ensayo de comportamiento externo, efectuado para las conexiones en derivación y compuesta aditiva, se verificó que, para una misma corriente, la tensión en la carga es mayor en la conexión compuesta aditiva que en la conexión en derivación, esto ocurre porque en la configuración compuesta aditiva, el devanado serie se conecta de manera que su campo magnético se suma al del devanado en derivación (shunt), incrementando el flujo magnético total a medida que aumenta la corriente de carga.
 
 ]
 
