@@ -97,7 +97,7 @@
   date: "16 de Octubre de 2025",
 )[
 
-  = Introducción:
+  = Introducción
   En este laboratorio se determinan los parámetros eléctricos fundamentales de una máquina sincrónica trifásica de rotor liso mediante ensayos indirectos: vacío, cortocircuito y medición de la resistencia de estator. A partir de estas pruebas se obtienen la curva de magnetización, la característica de cortocircuito, la resistencia por fase y la reactancia/impedancia síncrona, con los cuales se construye el circuito equivalente por fase del generador. Este modelo permite predecir el comportamiento de la máquina cerca de su tensión y corriente nominales y constituye la base para análisis de regulación de tensión, caída interna y flujo de potencias.
 
   = Marco teórico
@@ -109,18 +109,10 @@
     supplement: "Figura",
   )
 
-  En el modelo monofásico por fase (red equilibrada), el generador se representa por una f.e.m. interna $E_0$ (proporcional a la excitación de campo) en serie con la resistencia de armadura Ray la reactancia síncrona $X_S$. Esta última resume la reacción del inducido y la dispersión.
+  En el modelo monofásico por fase (red equilibrada), el generador se representa por una f.e.m. interna $E_0$ (proporcional a la excitación de campo) en serie con la resistencia de armadura $R_a$ y la reactancia síncrona $X_S$. Esta última resume la reacción del inducido y la dispersión.
   Este circuito equivalente por fase es la base para estimar caídas internas, corrientes y potencias en torno a la tensión nominal.
   Desde el punto de vista físico, con el estator alimentado (o, en modo generador, por el giro del rotor) se crea un campo giratorio a la frecuencia de red. El rotor, excitado en CC, establece un segundo campo; el par electromagnético resulta de su interacción y, en régimen, el rotor gira sin deslizamiento respecto del campo del estator. En el fasorial, a tensión terminal $U_a$ y frecuencias fijas, la corriente $I_a$ y su ángulo $#math.phi$ dependen de la relación entre $E_0$ y la caída $j X_S I_a$; al variar la excitación cambia $E_0$ y, por tanto, el comportamiento en potencia reactiva Q y el factor de potencia.
-  Cuando se hace girar el generador en vacío y se barre la corriente de excitación $I_"exc"$, la tensión inducida $E_0$ crece aproximadamente lineal a bajas excitaciones (zona no saturada, influida por magnetismo remanente) y luego se curva por saturación del hierro. La relación $E_0-I_"exc"$ es la curva de magnetización, que fija la referencia de tensión nominal en vacío. La saturación impacta la estimación de $X_S$: en no saturación se usa la recta del entrehierro ($U_"eh"$), mientras que cerca de tensión nominal se habla de una reactancia síncrona “saturada”.
-
-  == Ensayo de vacío
-
-  Con la máquina a velocidad nominal y armadura abierta, se mide $U_0$ en función de $I_"exc"$ y la velocidad. Resulta la curva de magnetización descrita antes. Este ensayo fija la relación entre campo y tensión interna sin efecto de carga (sin corriente de armadura).
-
-  == Ensayo de cortocircuito
-
-  Con el estator cortocircuitado y a velocidad nominal, se incrementa $I_"exc"$ hasta alcanzar la corriente de armadura nominal. En máquinas reales donde Raes despreciable, la corriente de cortocircuito queda esencialmente regida por la reactancia y no depende de la frecuencia (porque su efecto se cancela en f.e.m. y reactancia). Se miden $I_a$, $I_"exc"$ y velocidad.
+  Cuando se hace girar el generador en vacío y se barre la corriente de excitación $I_"exc"$, la tensión inducida $E_0$ crece aproximadamente lineal a bajas excitaciones (zona no saturada, influida por magnetismo remanente) y luego se curva por saturación del hierro. La relación $E_0-I_"exc"$ es la curva de magnetización, que fija la referencia de tensión nominal en vacío. La saturación impacta la estimación de $X_S$:_ en no saturación se usa la recta del entrehierro ($U_"eh"$), mientras que cerca de tensión nominal se habla de una reactancia síncrona “saturada”_.
 
   = Desarrollo experimental
   == Ensayo en vacío
@@ -184,10 +176,11 @@
 
   Los resultados se obtuvieron teniendo en cuenta las siguientes ecuaciones:
 
-  #equation($R_a=1/3*(R_"uv"/2+R_"vw"/2+R_"wu"/2) \ ("Resistencia de Armadura") #h(1em) T_a=21.8°C$)
   #equation($Z_s=U_0/(sqrt(3)*I_"cc")$)
-  #equation($X_s = sqrt(Z_s^2 + R_a^2)$)
-  #equation($R_"uv"=0.514; #h(1em) R_"vw"=0.511; #h(1em) R_"wu"=0.525; \ R_a = 1/3 (R_"uv"/2 + R_"vw"/2 + R_"wu"/2)$)
+  #equation($X_s = sqrt(Z_s^2 - R_a^2)$)
+  #equation(
+    $R_"uv"=0.514; #h(.5em) R_"vw"=0.511; #h(.5em) R_"wu"=0.525; #h(.5em) T_a=21.8°C \ R_a = 1/3 (R_"uv"/2 + R_"vw"/2 + R_"wu"/2)$,
+  )
 
   #align(center)[ #figure(
     table(
@@ -234,7 +227,7 @@
       [8], [5.4246], [5.4184],
       [10], [4.8944], [4.8876],
     ),
-    caption: [Tensión y corriente en ensayo de vacío],
+    caption: [Datos para la impedancia],
     placement: top,
   ) ]
 
