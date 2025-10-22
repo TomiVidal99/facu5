@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0" version="28.2.7">
+  <diagram name="Page-1" id="bGAhhEJBWvoPlo4XoYKp">
+    <mxGraphModel dx="1266" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uNzancu50AbEQnox18Rj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontSize=16;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="uNzancu50AbEQnox18Rj-1" target="uNzancu50AbEQnox18Rj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uNzancu50AbEQnox18Rj-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#736CA8;fontSize=16;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="uNzancu50AbEQnox18Rj-1" target="uNzancu50AbEQnox18Rj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uNzancu50AbEQnox18Rj-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#736CA8;fontSize=16;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="uNzancu50AbEQnox18Rj-1" target="uNzancu50AbEQnox18Rj-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uNzancu50AbEQnox18Rj-1" value="&lt;font&gt;Materia prima&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#5D7F99;fontColor=#1A1A1A;strokeColor=#D0CEE2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="354" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uNzancu50AbEQnox18Rj-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#736CA8;fontSize=16;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="uNzancu50AbEQnox18Rj-2" target="uNzancu50AbEQnox18Rj-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uNzancu50AbEQnox18Rj-2" value="Plástico" style="ellipse;whiteSpace=wrap;html=1;fillColor=#5D7F99;fontColor=#1A1A1A;strokeColor=#D0CEE2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uNzancu50AbEQnox18Rj-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#736CA8;fontSize=16;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="uNzancu50AbEQnox18Rj-3" target="uNzancu50AbEQnox18Rj-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uNzancu50AbEQnox18Rj-3" value="Metales" style="ellipse;whiteSpace=wrap;html=1;fillColor=#5D7F99;fontColor=#1A1A1A;strokeColor=#D0CEE2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uNzancu50AbEQnox18Rj-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#736CA8;fontSize=16;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="uNzancu50AbEQnox18Rj-7" target="uNzancu50AbEQnox18Rj-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uNzancu50AbEQnox18Rj-7" value="Resortes y refuerzos" style="ellipse;whiteSpace=wrap;html=1;fillColor=#5D7F99;fontColor=#1A1A1A;strokeColor=#D0CEE2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uNzancu50AbEQnox18Rj-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontSize=16;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="uNzancu50AbEQnox18Rj-8" target="uNzancu50AbEQnox18Rj-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uNzancu50AbEQnox18Rj-8" value="Material de agarre" style="ellipse;whiteSpace=wrap;html=1;fillColor=#5D7F99;fontColor=#1A1A1A;strokeColor=#D0CEE2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="354" y="210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uNzancu50AbEQnox18Rj-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#736CA8;fontSize=16;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="uNzancu50AbEQnox18Rj-11" target="uNzancu50AbEQnox18Rj-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uNzancu50AbEQnox18Rj-11" value="Piezas de plástico" style="ellipse;whiteSpace=wrap;html=1;fillColor=#5D7F99;fontColor=#1A1A1A;strokeColor=#D0CEE2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uNzancu50AbEQnox18Rj-13" value="MateHolder" style="ellipse;whiteSpace=wrap;html=1;fillColor=#5D7F99;fontColor=#1A1A1A;strokeColor=#D0CEE2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="354" y="460" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
