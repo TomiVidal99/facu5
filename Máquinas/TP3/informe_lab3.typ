@@ -255,6 +255,12 @@
     supplement: "Figura",
   )
 
+  #figure(
+    image("Imagenes/fasorial.png", width: 100%),
+    caption: [Fasorial en condición nominal con $cos#math.phi=0.8$],
+    supplement: "Figura",
+  )
+
   = Conclusión
 
   En este laboratorio se determinaron con éxito los parámetros eléctricos fundamentales de una máquina sincrónica trifásica de rotor liso mediante ensayos indirectos en vacío y cortocircuito, junto con la medición de la resistencia del estator. Se obtuvieron la curva de magnetización, que muestra un comportamiento lineal inicial y saturación a altas excitaciones, y la característica de cortocircuito, permitiendo calcular la resistencia de armadura ($R_a$), la impedancia sincrónica ($Z_s$) y la reactancia sincrónica ($X_s$), con valores decrecientes por saturación. Estos resultados validan el circuito equivalente por fase, facilitando el análisis de regulación de tensión y comportamiento bajo carga nominal, y confirman la influencia de la saturación en el rendimiento de la máquina.
