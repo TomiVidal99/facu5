@@ -1,0 +1,4 @@
+# WATCH
+typst watch trabajo_2_practico_legal.typ
+# COMPILE
+typst compile trabajo_2_practico_legal.typ
